@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
+  <diagram name="第 1 页" id="Kol3lEYRE0jRj-H6_mUI">
+    <mxGraphModel dx="577" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v73zauMOpdLzb934va-S-1" value="超电控制器" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="590" y="910" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v73zauMOpdLzb934va-S-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="v73zauMOpdLzb934va-S-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="1050" />
+              <mxPoint x="540" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v73zauMOpdLzb934va-S-2" value="TB48S电池" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1010" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v73zauMOpdLzb934va-S-3" value="超级电容" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1010" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v73zauMOpdLzb934va-S-4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="v73zauMOpdLzb934va-S-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="654.5" y="1000" as="sourcePoint" />
+            <mxPoint x="654.5" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v73zauMOpdLzb934va-S-15" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="v73zauMOpdLzb934va-S-16" target="v73zauMOpdLzb934va-S-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="930" as="sourcePoint" />
+            <mxPoint x="700" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v73zauMOpdLzb934va-S-16" value="继电器" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="740" y="905" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v73zauMOpdLzb934va-S-17" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="v73zauMOpdLzb934va-S-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="890" as="sourcePoint" />
+            <mxPoint x="580" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v73zauMOpdLzb934va-S-20" value="超点管理模块" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#10739e;fillColor=#b1ddf0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="820" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v73zauMOpdLzb934va-S-21" value="电源管理模块" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#23445d;fillColor=#bac8d3;" vertex="1" parent="1">
+          <mxGeometry x="290" y="816.25" width="150" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="v73zauMOpdLzb934va-S-22" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#393C56;fillColor=none;exitX=0.432;exitY=0.026;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.6;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="v73zauMOpdLzb934va-S-2" target="v73zauMOpdLzb934va-S-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="940" as="sourcePoint" />
+            <mxPoint x="376" y="873" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
